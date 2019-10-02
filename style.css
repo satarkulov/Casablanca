@@ -1,0 +1,392 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: "BigJohn" , sans-serif;
+	width: 100%;
+	height: 100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+
+
+
+/*Header*************************************************************************************Header**/
+
+.header {
+	background: url("images/BG1/header-bg.jpg");
+	height: 100vh;
+	box-sizing: border-box;
+	color: #fff;
+	background-size: cover;
+
+}
+
+.hamburger {
+	padding: 50px 0 0 45px; 
+}
+
+.header-title {
+	margin: 20vh 0 0 0;
+	font-size: 37px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.header-hr {
+	width: 85px;
+	margin: 40px auto;
+	background-color: #fff;
+	height: 3px;
+	border: 1px solid white;
+	
+}
+
+.header-desc {
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+}
+
+.header-mouse {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+/*  222222222222222222222222222222222222222222222222222222222222222*/
+.bg2 {
+	width: 100%;
+	max-width: 60vw;
+	height: 64vh;
+	margin: 0 auto;
+}
+
+.introduction {
+	padding-top: 7vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.bg2-text {
+	text-align: center;
+	font-size: 3.5vh;
+	line-height: 5vh;
+}
+
+
+.black-hr {
+	width: 85px;
+	margin: 40px auto;
+	height: 3px;
+	background-color: black;
+	border: 1px solid black;
+}
+
+
+/*3333333333333333333333333333333333333333333333333333333333333333333333333333333333*/
+
+.bg3 {
+	background: url(images/BG3/bg3.png);
+	height: 100%;
+	max-height: 64vh;
+	background-position: center;
+	background-size: cover;
+	margin: 0 auto;
+
+}
+
+.bg3-conteiner {
+	width: 100%;
+	padding-top: 25vh;
+	margin: 0 auto;
+}
+
+.whiterectangle {
+
+	width: 430px;
+	height: 100px;
+	border: 3px solid white;
+	margin: 0 auto;
+}
+
+.bg3-h2 {
+	padding-top: 2vh;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+/*44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
+.bg4 {
+	width: 100%;
+	height: 60vh;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	
+}
+
+.bg4-h2 {
+	font-weight: bolder;
+	font-size: 4vh;
+	padding-top: 16vh;
+}
+
+.works_names {
+	line-height: 14vh;
+	font-size: 2.5vh;
+}
+
+.list_of_names {
+	margin-top: 10vh;
+	margin-left: 2.5vw;	
+}
+
+.list_of_names:first-child{
+	margin-left: 0;
+}
+
+/*555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+
+.bg5 {
+	height: 100%;
+	max-height: 100vh;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.work_pics { 
+	display: inline-block;
+}
+
+.work_pic_ {
+	margin-left: 35px;
+}
+
+.work_pic_:first-child {
+	margin-left: 0;
+}
+
+
+/*6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666*/
+
+.bg6 {
+	/*position: relative;*/
+	/*width: 100%;*/
+	height: 100%;
+	max-height: 45vh;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.bg6-container {
+	width: 100%;
+	padding-top: 13vh;
+	margin: 0 auto;
+}
+
+.bg6-blackrectangle {
+	width: 380px;
+	height: 80px;
+	border: 3px solid black;
+	margin: 0 auto;
+}
+
+.show_me_more {
+	padding-top: 1.2vh;
+	font-weight: bold;
+}
+
+/*7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777*/
+
+.bg7 {
+	background: url(images/BG5/bg5.png);
+	height: 100%;
+	max-height: 64vh;
+	background-position: center;
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+
+.bg7-container {
+	width: 100%;
+	padding-top: 25vh;
+	margin: 0 auto;
+}
+
+
+
+.bg7-h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5vh;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888*/
+
+.bg8 {
+	width: 100%;
+	height: 100%;
+	max-height: 60vh;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+.bg8-h2 {
+	font-weight: bolder;
+	font-size: 4vh;
+	padding-top: 16vh;
+}
+
+.bg8-logos { 
+	display: inline-flex;
+	margin-top: 5vh;
+}
+
+.logo {
+	margin-left: 50px;
+}
+
+.logo:first-child {
+	margin-left: 0;
+}
+
+/*99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999*/
+.bg9 {
+	width: 100%;
+	height: 100%;
+	max-height: 60vh;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bg9-h2 {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 4vh;
+	padding-top: 16vh;
+}
+
+.bg9-desc {
+	font-size: 22px;
+}
+
+/*-------------------------------------------------------------------------------------------------------10*/
+.bg10 {
+	width: 100%;
+	height: 100%;
+	max-height: 45vh;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bg10-workers {
+	display: inline-flex;
+}
+
+.workers-pic1 {
+	background: url("images/BG10/john.png");
+	width: 203px;
+	height: 270px;
+	background-repeat: no-repeat;
+	background-position: cover;
+}
+.bg10-workers-pic1-h2{
+	margin-top: 210px;
+	color: white;
+	text-transform: uppercase;
+}
+.bg10-workers-pic1-h4 {
+	margin-top: -20px;
+	color: white;
+	opacity: .8;
+}
+.bg10-john-link {
+	background: url("images/bg10/john-link.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: contain; 
+	margin-right: 0;
+}
+
+.workers-pic2 {
+	background: url("images/BG10/woman_after_john.png");
+	width: 203px;
+	height: 270px;
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin-left: 40px;
+}
+
+.workers-pic3 {
+	background: url("images/BG10/girl_after_woman.png");
+	width: 203px;
+	height: 270px;
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin-left: 40px;
+}
+
+.bg10-rectangle {
+	width: 203px;
+	height: 270px;
+	border: 2px solid black;
+	margin: 0 auto;
+	margin-left: 40px;
+	background-color: rgb(240 240 240);
+}
+
+.bg10-rectangle-h2 {
+	margin-top: 70px;
+	text-transform: uppercase;
+}
+
+.bg10-rectangle-hr {
+	width: 60px;
+	margin: 30px auto;
+	height: 2px;
+	background-color: black;
+	border: 1px solid black;
+}
+
+.bg10-rectangle-rectangle {
+	width: 150px;
+	height: 40px;
+	border: 3px solid black;
+	margin: 0 auto;
+	/*margin-top: 170px;*/
+}
+
+.bg10-rectangle-rectangle-inner {
+	padding-top: 1.5vh;
+	text-align: center;
+	text-transform: uppercase;
+}
+.bg10-link {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: .7;
+}
+.bg10-link:hover {
+	opacity: 1;
+}
+
